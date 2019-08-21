@@ -1,0 +1,27 @@
+{
+  "name": "cq-nodejs-common-utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts -t 3000000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suchangqin/cq-nodejs-common-utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suchangqin/cq-nodejs-common-utils/issues"
+  },
+  "homepage": "https://github.com/suchangqin/cq-nodejs-common-utils#readme",
+  "dependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
