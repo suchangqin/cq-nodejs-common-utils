@@ -1,6 +1,6 @@
 
 
-const msleep = async (milloseconds: number) => {
+const msleep = async (milloseconds: number) : Promise<any> => {
     if (milloseconds > 0) {
         // console.info(`sleep ${milloseconds} milloseconds`)
         return new Promise(resolve => setTimeout(resolve, milloseconds));
